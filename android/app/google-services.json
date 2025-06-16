@@ -1,0 +1,179 @@
+{
+  "project_info": {
+    "project_number": "30737433081",
+    "firebase_url": "https://ferdi-baba-default-rtdb.firebaseio.com",
+    "project_id": "ferdi-baba",
+    "storage_bucket": "ferdi-baba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30737433081:android:781c8a24bf300a98f0fd28",
+        "android_client_info": {
+          "package_name": "com.chat.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30737433081-55rlv3g54um1280hg6tbee5f7hf3v5fh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chat.app",
+            "certificate_hash": "d17eb1ccb2810da85c75c103bc1ced2ab68a7585"
+          }
+        },
+        {
+          "client_id": "30737433081-gb7fht0qj6bbk4b4v9nc4u8pi3g60t79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCixMMs8z3372BwDxd8TcH3DZoCwcGLAvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30737433081-gb7fht0qj6bbk4b4v9nc4u8pi3g60t79.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30737433081-3ad5j77p8bg0pb3l8mrr2q1u0a2vv3uc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tesbihim"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30737433081:android:38174ff863301d08f0fd28",
+        "android_client_info": {
+          "package_name": "com.example.one_note"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30737433081-222gmvrfh37vh6cf3uqjb60976c9oih8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.one_note",
+            "certificate_hash": "d17eb1ccb2810da85c75c103bc1ced2ab68a7585"
+          }
+        },
+        {
+          "client_id": "30737433081-gb7fht0qj6bbk4b4v9nc4u8pi3g60t79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCixMMs8z3372BwDxd8TcH3DZoCwcGLAvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30737433081-gb7fht0qj6bbk4b4v9nc4u8pi3g60t79.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30737433081-3ad5j77p8bg0pb3l8mrr2q1u0a2vv3uc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tesbihim"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30737433081:android:f21ab0bbf9f52ccff0fd28",
+        "android_client_info": {
+          "package_name": "com.example.physio_metric"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30737433081-gb7fht0qj6bbk4b4v9nc4u8pi3g60t79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCixMMs8z3372BwDxd8TcH3DZoCwcGLAvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30737433081-gb7fht0qj6bbk4b4v9nc4u8pi3g60t79.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30737433081-3ad5j77p8bg0pb3l8mrr2q1u0a2vv3uc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tesbihim"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30737433081:android:f9327778ea21f030f0fd28",
+        "android_client_info": {
+          "package_name": "com.example.tesbihim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30737433081-5ksj537eg0414ke6phgpn2fc2iigoi79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tesbihim",
+            "certificate_hash": "d17eb1ccb2810da85c75c103bc1ced2ab68a7585"
+          }
+        },
+        {
+          "client_id": "30737433081-gb7fht0qj6bbk4b4v9nc4u8pi3g60t79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCixMMs8z3372BwDxd8TcH3DZoCwcGLAvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30737433081-gb7fht0qj6bbk4b4v9nc4u8pi3g60t79.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30737433081-3ad5j77p8bg0pb3l8mrr2q1u0a2vv3uc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tesbihim"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>30737433081-a5nnkjrrp9sib2hu33pibg9ja2kr1ev6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.30737433081-a5nnkjrrp9sib2hu33pibg9ja2kr1ev6</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>30737433081-222gmvrfh37vh6cf3uqjb60976c9oih8.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAXxPk2vg618sfYRlt6AYXi2yMyoPwjxJg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>30737433081</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.physioMetric</string>
+	<key>PROJECT_ID</key>
+	<string>ferdi-baba</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ferdi-baba.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:30737433081:ios:6b7c93285f5db53ef0fd28</string>
+	<key>DATABASE_URL</key>
+	<string>https://ferdi-baba-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
