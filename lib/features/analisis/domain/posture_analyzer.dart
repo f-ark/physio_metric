@@ -1,19 +1,14 @@
 import 'dart:math' as math;
 
 import 'package:google_mlkit_pose_detection/google_mlkit_pose_detection.dart';
-import 'package:physio_metric/features/posture/domain/posture_deviation.dart';
+import 'package:physio_metric/features/analisis/domain/posture_deviation_value_object_model.dart';
 
-/// PostureAnalyzer, farklı postürleri tespit eder.
+/// [PostureAnalyzer], farklı postürleri tespit eder.
 class PostureAnalyzer {
   /// PostureAnalyzer'ı oluşturur.
   PostureAnalyzer();
 
-  /// Kulak-omuz hattının yatayla yaptığı açıya bakarak boyun düzleşmesini tespit eder.
-  ///
   /// [landmarks], kulak-omuz hattının yatayla yaptığı açıya bakarak boyun düzleşmesini tespit eder.
-  ///
-  /// [landmarks], kulak-omuz hattının yatayla yaptığı açıya bakarak boyun düzleşmesini tespit eder.
-  /// Kulak-omuz hattının yatayla yaptığı açıya bakarak boyun düzleşmesini tespit eder.
   double calculateNeckAngle(List<PoseLandmark> landmarks) {
     final leftShoulder = landmarks.firstWhere(
       (l) => l.type == PoseLandmarkType.leftShoulder,
@@ -47,10 +42,10 @@ class PostureAnalyzer {
   }
 
   /// Genel analiz fonksiyonu
-  PostureDeviation analyze(List<PoseLandmark> landmarks) {
+  PostureDeviationValueObjectModel analyze(List<PoseLandmark> landmarks) {
     final neckAngle = calculateNeckAngle(landmarks);
     final shoulderAngle = calculateShoulderAngle(landmarks);
-    return PostureDeviation(
+    return PostureDeviationValueObjectModel(
       neckAngle: neckAngle,
       shoulderAngle: shoulderAngle,
     );

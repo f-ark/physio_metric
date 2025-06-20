@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:physio_metric/core/firebase/firebase_providers.dart';
 import 'package:physio_metric/features/authentication/data/firebase_user_mapper.dart';
 import 'package:physio_metric/features/authentication/domain/app_user.dart';
 
@@ -79,12 +80,6 @@ class FirebaseAuthRepository implements AuthRepository {
   Stream<AppUser?> get userStream =>
       _firebaseAuth.authStateChanges().map((user) => user?.toAppUser());
 }
-
-final firebaseAuthProvider = Provider<FirebaseAuth>(
-  (ref) => FirebaseAuth.instance,
-);
-
-final googleSignInProvider = Provider<GoogleSignIn>((ref) => GoogleSignIn());
 
 final authRepositoryProvider = Provider<AuthRepository>((ref) {
   final firebaseAuth = ref.watch(firebaseAuthProvider);

@@ -1,18 +1,14 @@
 import 'package:equatable/equatable.dart';
 
-/// [PostureDeviation], analiz sonuçlarını tutan value object.
-class PostureDeviation extends Equatable {
-  /// PostureDeviation'ı oluşturur.
-  ///
+/// [PostureDeviationValueObjectModel], analiz sonuçlarını tutan value object.
+final class PostureDeviationValueObjectModel extends Equatable {
   /// [neckAngle], boyun sapması.
   /// [shoulderAngle], omuz sapması.
-  const PostureDeviation({
+  const PostureDeviationValueObjectModel({
     required this.neckAngle,
     required this.shoulderAngle,
   });
-  //boyun sapması
   final double neckAngle;
-  //omuz sapması
   final double shoulderAngle;
 
   @override

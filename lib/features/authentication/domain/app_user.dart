@@ -1,5 +1,8 @@
 import 'package:flutter/foundation.dart';
 
+/// Tip güvenliği sağlamak için AppUser kimliğini temsil eden Value Object.
+extension type UserId(String id) {}
+
 /// Uygulama genelinde kullanılacak kullanıcı modelidir.
 @immutable
 class AppUser {

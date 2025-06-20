@@ -17,12 +17,22 @@ dependencies:
   google_sign_in: ^6.3.0
   image_picker: ^1.1.2
   equatable: ^2.0.7
+  drift: ^2.27.0
+  sqlite3_flutter_libs: ^0.5.18
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  freezed_annotation: ^2.4.1
+  riverpod_annotation: ^3.0.0-dev.0
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   custom_lint: ^0.7.5
+  drift_dev: ^2.27.0
+  build_runner: ^2.4.7
+  freezed: ^2.5.2
+  riverpod_generator: ^3.0.0-dev.7
   flutter_lints: ^5.0.0
   riverpod_lint: ^3.0.0-dev.0
   very_good_analysis: ^9.0.0
